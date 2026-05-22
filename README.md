@@ -81,6 +81,7 @@ df2
 ```
 
 <img width="675" height="401" alt="Screenshot 2026-05-20 183033" src="https://github.com/user-attachments/assets/1a24262a-13b9-475a-ae53-e5c48a0f1c79" />
+
 ```
 from sklearn.preprocessing import OneHotEncoder
 ohe = OneHotEncoder()
