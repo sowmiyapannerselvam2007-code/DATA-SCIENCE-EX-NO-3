@@ -51,12 +51,14 @@ df = pd.read_csv('data.csv')
 print(df)
 ```
 <img width="627" height="276" alt="Screenshot 2026-05-20 183008" src="https://github.com/user-attachments/assets/fddad125-8938-45fb-84de-7ad1d107e336" />
+
 ```
 from sklearn.preprocessing import OrdinalEncoder,LabelEncoder
 climate = ['Cold','Warm','Hot','Very Hot']
 ele = OrdinalEncoder(categories=[climate])
 ele.fit_transform(df[["Ord_1"]])
 ```
+
 <img width="412" height="251" alt="Screenshot 2026-05-20 183014" src="https://github.com/user-attachments/assets/ee407082-aa55-4871-b013-378a2038e4d0" />
 <img width="681" height="372" alt="Screenshot 2026-05-20 183021" src="https://github.com/user-attachments/assets/15d875bc-af6e-4f28-bd37-b4243d231595" />
 <img width="687" height="380" alt="Screenshot 2026-05-20 183027" src="https://github.com/user-attachments/assets/7cfc32e5-4309-41a1-a6da-1d5a9f3bc02b" />
