@@ -247,6 +247,7 @@ plt.show()
 ```
 
 <img width="767" height="531" alt="Screenshot 2026-05-20 183807" src="https://github.com/user-attachments/assets/8bbab9eb-5417-4126-b515-dcf7be87e61d" />
+
 ```
 sm.qqplot(np.sqrt(df["Moderate Negative Skew_1"]),line='45')
 plt.show()
